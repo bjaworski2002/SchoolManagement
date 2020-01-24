@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1579869267 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\src\mark.cpp
+1579870180 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\src\mark.cpp
 	"Mark.h"
+	<string>
+	<iostream>
 
-1579869267 c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\include\mark.h
+1579870098 c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\include\mark.h
+	<string>
 
 1579869237 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\src\student.cpp
 	"Student.h"
