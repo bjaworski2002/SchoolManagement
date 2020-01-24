@@ -3,5 +3,5 @@
 obj/*
 *.cbp
 *.depend
-a.a.txt
+a?a.txt
 bin/*

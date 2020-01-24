@@ -3,10 +3,11 @@
 #include <iostream>
 using namespace std;
 
-Mark::Mark(int value, string subject)
+Mark::Mark(int value, string subject, Student* student)
 {
     this->value=value;
     this->subject=subject;
+    this->student=student;
 }
 
 Mark::~Mark()
@@ -14,5 +15,6 @@ Mark::~Mark()
     //dtor
 }
 void Mark::print(){
-    cout << value << " - " << subject << endl;
+    cout << value << " - " << subject << " - " << endl;
+    student->print();
 }

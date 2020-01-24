@@ -1,4 +1,6 @@
 #include "Student.h"
+#include <iostream>
+using namespace std;
 
 Student::Student()
 {
@@ -8,4 +10,7 @@ Student::Student()
 Student::~Student()
 {
     //dtor
+}
+void Student::print(){
+    cout << this << endl;
 }

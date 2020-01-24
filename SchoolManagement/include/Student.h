@@ -7,6 +7,7 @@ class Student
     public:
         Student();
         virtual ~Student();
+        void print();
 
     protected:
 
