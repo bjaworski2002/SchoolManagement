@@ -15,6 +15,6 @@ Mark::~Mark()
     //dtor
 }
 void Mark::print(){
-    cout << value << " - " << subject << " - " << endl;
-    student->print();
+    cout << value << " - " << subject << endl;
+//    student->print();
 }

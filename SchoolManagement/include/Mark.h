@@ -3,7 +3,7 @@
 #include <string>
 #include "Student.h"
 using namespace std;
-
+class Student;
 class Mark
 {
     public:
