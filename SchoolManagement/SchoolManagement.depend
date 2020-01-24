@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1579869267 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\src\mark.cpp
+	"Mark.h"
+
+1579869267 c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\include\mark.h
+
+1579869237 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\src\student.cpp
+	"Student.h"
+
+1579869237 c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\include\student.h
+
+1579869458 source:c:\users\arkadiusz\documents\projects codeblocks\schoolmanagement\schoolmanagement\main.cpp
+	<iostream>
+	"Student.h"
+	"Mark.h"
+
