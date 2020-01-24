@@ -1,10 +1,12 @@
 #include "Student.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
-Student::Student()
+Student::Student(string name, string surname)
 {
-    //ctor
+    this->name=name;
+    this->surname=surname;
 }
 
 Student::~Student()
@@ -12,5 +14,5 @@ Student::~Student()
     //dtor
 }
 void Student::print(){
-    cout << this << endl;
+    cout << name << " " << surname << endl;
 }
